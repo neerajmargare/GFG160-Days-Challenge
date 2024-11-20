@@ -17,7 +17,6 @@ public:
                 mx2 = x;
             }
         }
-
         return mx2 != INT_MIN ? mx2 : -1; // Return second largest or -1 if it doesn't exist
     }
 };
