@@ -1,6 +1,6 @@
 class Solution {
   public:
-    // Function to find the majority elements in the array
+        // Function to find the majority elements in the array
     vector<int> findMajority(vector<int>& arr) {
         int n = arr.size();
         unordered_map<int, int> frequency;
